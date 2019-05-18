@@ -20,3 +20,6 @@
 ``` touch .gotpath```
 
  Good suggestion found [here](http://hgfischer.org/article/managing-multiple-gopaths/)
+
+# Good Practies in GoLang
+[Good Practies](https://github.com/golang-standards/project-layout)
