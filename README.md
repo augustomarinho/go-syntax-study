@@ -2,7 +2,7 @@
 
 # Setting GOPATH variable dynamically
 
-## Adding this function in your ~/.bashrc (Good suggestion found on http://hgfischer.org/article/managing-multiple-gopaths/)
+### Adding this function in your ~/.bashrc (Good suggestion found on http://hgfischer.org/article/managing-multiple-gopaths/)
 ```cd () {
     builtin cd "$@"
     cdir=$PWD
@@ -16,5 +16,5 @@
 }
 ```
 
-## Creating an empty file .gopath in your root workspace path
+### Creating an empty file .gopath in your root workspace path
 ``` touch .gotpath```
