@@ -1,8 +1,9 @@
-#GO-SYNTAX-STUDY
+# GO-SYNTAX-STUDY
 
 # Setting GOPATH variable dynamically
 
-### Adding this function in your ~/.bashrc (Good suggestion found [here] (http://hgfischer.org/article/managing-multiple-gopaths/)
+1. Adding this function in your ~/.bashrc - 
+
 ```cd () {
     builtin cd "$@"
     cdir=$PWD
@@ -15,6 +16,7 @@
     done
 }
 ```
-
-### Creating an empty file .gopath in your root workspace path
+ 2. Creating an empty file .gopath in your root workspace path
 ``` touch .gotpath```
+
+ Good suggestion found [here](http://hgfischer.org/article/managing-multiple-gopaths/)
