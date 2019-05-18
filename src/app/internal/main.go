@@ -8,8 +8,7 @@ import (
 
 func main() {
 
-	fmt.Println("Hello World!")
-
+	fmt.Println("Starting program")
 	s := geometry.Square{Width: 3, Height: 5}
 	geometry.Calculate(s)
 }
