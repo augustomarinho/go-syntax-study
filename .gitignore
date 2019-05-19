@@ -14,5 +14,7 @@
 .vscode/**
 /bin/**
 /pkg/**
-/src/*
-!/src/app/
+src/app/internal/vendor/**
+src/github.com/**
+src/golang.org/**
+!/src/app/internal
